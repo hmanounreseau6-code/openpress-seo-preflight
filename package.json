@@ -1,0 +1,26 @@
+{
+  "name": "openpress-seo-preflight",
+  "version": "0.1.0",
+  "description": "A dependency-free CLI that audits WordPress article HTML before publication.",
+  "type": "module",
+  "bin": {
+    "openpress-seo-preflight": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js --file examples/sample-article.html --keyword \"peach cobbler\""
+  },
+  "keywords": [
+    "wordpress",
+    "seo",
+    "audit",
+    "cli",
+    "blogging",
+    "schema",
+    "rankmath"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
